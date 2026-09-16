@@ -1,0 +1,190 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile</title>
+</head>
+<body>
+
+    <!-- Headings -->
+    <h1>GCET</h1>
+    <h2>Course: Btech in Computer Science Engineering</h2>
+    <h3>Student Name: Shivam Kumar</h3>
+
+    <hr>
+
+    <!-- About -->
+    <h2>About Me</h2>
+    <p>
+        My name is Shivam Kumar. I am a student of btech in Computer Science Engineering.
+        I have completed my schooling with a keen interest in technology and computers.
+        I enjoy learning programming and web development. My career goal is to become
+        a successful software developer and build useful applications.
+    </p>
+
+    <hr>
+
+    <!-- Image -->
+    <h2>My Profile Photo</h2>
+    <img src="student.jpg" alt="Student Profile Photo" width="180" height="220">
+
+    <hr>
+
+    <!-- Hyperlinks -->
+    <h2>Useful Links</h2>
+    <p>
+        <a href="https://www.gpckatihar.ac.in" target="_blank">College Website</a>
+    </p>
+    <p>
+        <a href="https://www.w3schools.com" target="_blank">Educational Website (W3Schools)</a>
+    </p>
+
+    <hr>
+
+    <!-- Ordered List -->
+    <h2>Educational Qualifications</h2>
+    <ol>
+        <li>Class 10 (Secondary School)</li>
+        <li>Class 12 (Higher Secondary)</li>
+        <li>Diploma in Computer Science Engineering (Pursuing)</li>
+    </ol>
+
+    <hr>
+
+    <!-- Unordered List -->
+    <h2>Hobbies & Technical Skills</h2>
+    <ul>
+        <li>Reading Books</li>
+        <li>Coding</li>
+        <li>Playing Cricket</li>
+        <li>Listening to Music</li>
+        <li>HTML Basics</li>
+        <li>C Programming</li>
+    </ul>
+
+    <hr>
+
+    <!-- Timetable -->
+    <h2>Weekly Class Timetable</h2>
+
+    <table border="1" cellpadding="8" cellspacing="0">
+        <tr>
+            <th>Day</th>
+            <th>9-10</th>
+            <th>10-11</th>
+            <th>11-12</th>
+            <th>12-1</th>
+            <th>1-2</th>
+            <th>2-3</th>
+            <th>3-4</th>
+        </tr>
+
+        <tr>
+            <td>Monday</td>
+            <td>Math</td>
+            <td>HTML</td>
+            <td>C Programming</td>
+            <td rowspan="5">Lunch</td>
+            <td colspan="2">Computer Lab</td>
+            <td>English</td>
+        </tr>
+
+        <tr>
+            <td>Tuesday</td>
+            <td>Physics</td>
+            <td>Math</td>
+            <td>HTML</td>
+            <td>Workshop</td>
+            <td>C Lab</td>
+            <td>Sports</td>
+        </tr>
+
+        <tr>
+            <td>Wednesday</td>
+            <td>English</td>
+            <td>C Programming</td>
+            <td>Math</td>
+            <td colspan="2">Web Lab</td>
+            <td>Library</td>
+        </tr>
+
+        <tr>
+            <td>Thursday</td>
+            <td>HTML</td>
+            <td>Physics</td>
+            <td>Math</td>
+            <td>C Programming</td>
+            <td>Computer Lab</td>
+            <td>English</td>
+        </tr>
+
+        <tr>
+            <td>Friday</td>
+            <td>Math</td>
+            <td>HTML</td>
+            <td>Seminar</td>
+            <td colspan="2">Project Work</td>
+            <td>Games</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <!-- Form -->
+    <h2>Student Registration / Contact Form</h2>
+
+    <form action="sssubmit.html" method="post">
+
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob"><br><br>
+
+        <label for="mobile">Mobile Number:</label><br>
+        <input type="tel" id="mobile" name="mobile"><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">Other</label><br><br>
+
+        <label for="course">Branch/Course:</label><br>
+        <select id="course" name="course">
+            <option value="">--Select Branch--</option>
+            <option value="CSE">Computer Science Engineering</option>
+            <option value="ME">Mechanical Engineering</option>
+            <option value="CE">Civil Engineering</option>
+            <option value="EE">Electrical Engineering</option>
+            <option value="ECE">Electronics Engineering</option>
+        </select><br><br>
+
+        <label>Hobbies:</label><br>
+        <input type="checkbox" name="hobby" value="Reading"> Reading<br>
+        <input type="checkbox" name="hobby" value="Coding"> Coding<br>
+        <input type="checkbox" name="hobby" value="Cricket"> Cricket<br>
+        <input type="checkbox" name="hobby" value="Music"> Music<br><br>
+
+        <label for="address">Address / Feedback:</label><br>
+        <textarea id="address" name="address" rows="5" cols="30"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+
+    
+
+    
+
+</body>
+</html>         
